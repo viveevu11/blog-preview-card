@@ -12,24 +12,27 @@
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    body {margin: 0; min-height: 100vh; background-color: #F4D04E}
+    body {display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0; min-height: 100vh; background-color: #F4D04E}
+    .card {box-sizing: border-box; background-color: white; border-radius: 20px;}
+    img {border-radius: 20px;}
   </style>
 </head>
 <body>
+  <div class="card">
+    <img src="./assets/images/illustration-article.svg" alt="HTML/CSS Course Image"/>
+    <span>Learning</span>
 
-  Learning
+    <time>Published 21 Dec 2023</time>
 
-  Published 21 Dec 2023
+    <h1>HTML & CSS foundations</h1>
 
-  HTML & CSS foundations
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
+    <span>Greg Hooper</span>
+  </div>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Vivian Vu</a>.
   </footer>
 </body>
 </html>
